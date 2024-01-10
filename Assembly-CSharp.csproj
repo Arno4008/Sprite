@@ -78,9 +78,9 @@
     <Compile Include="Assets\Import\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Import\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Import\Emerald AI\Scripts\Sound Detection\Scripts\Enums\TriggerTypes.cs" />
+    <Compile Include="Assets\Import\Emerald AI\Scripts\System\EmeraldAISystem.cs" />
     <Compile Include="Assets\Import\Emerald AI\Scripts\Sound Detection\Scripts\AttractModifier.cs" />
     <Compile Include="Assets\Import\Easy Character Movement\Walkthrough\13 - Over The Shoulder Camera Movement\Scripts\OverShoulderCameraController.cs" />
-    <Compile Include="Assets\Import\Emerald AI\Scripts\System\EmeraldAISystem.cs" />
     <Compile Include="Assets\Import\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Import\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Import\Easy Character Movement\Scripts\Components\GroundDetection\BaseGroundDetection.cs" />
@@ -96,8 +96,8 @@
     <Compile Include="Assets\Import\Emerald AI\Scripts\Character Controller\EmeraldAIHideMouse.cs" />
     <Compile Include="Assets\Import\Easy Character Movement\Walkthrough\10 - Wall Grab and Wall Jump\Scripts\OneWayPlatform.cs" />
     <Compile Include="Assets\Import\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\Import\Emerald AI\Scripts\Components\SummonedAIComponent.cs" />
     <Compile Include="Assets\Import\Emerald AI\Scripts\Components\EmeraldAIWaypointObject.cs" />
+    <Compile Include="Assets\Import\Emerald AI\Scripts\Components\SummonedAIComponent.cs" />
     <Compile Include="Assets\Import\Emerald AI\Scripts\Components\EmeraldAIDamageOverTime.cs" />
     <Compile Include="Assets\Import\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Import\Emerald AI\Scripts\Example Scripts\AISchedule.cs" />
