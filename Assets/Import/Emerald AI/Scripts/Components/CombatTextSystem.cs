@@ -79,7 +79,7 @@ namespace EmeraldAI
             }
         }
 
-        public void CreateCombatTextAI(int Amount, Vector3 TextPosition, bool CriticalHit, bool HealingText)
+        public void CreateCombatTextAI(float Amount, Vector3 TextPosition, bool CriticalHit, bool HealingText)
         {
             if (m_EmeraldAICombatTextData.CombatTextState == EmeraldAICombatTextData.CombatTextStateEnum.Enabled)
             {
