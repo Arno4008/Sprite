@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - GasTank
+  - Target
+  - Concrete
+  - Metal
+  - ExplosiveBarrel
+  - Ground
+  - Object
   layers:
   - Default
   - TransparentFX

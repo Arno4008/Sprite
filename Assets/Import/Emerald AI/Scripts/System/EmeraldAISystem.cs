@@ -508,7 +508,7 @@ namespace EmeraldAI
         float RayCastUpdateTimer;
         public float ObstructionDetectionUpdateSeconds = 0.1f;
         public float ObstructionDetectionUpdateTimer;
-        public int CurrentHealth;
+        public float CurrentHealth;
         public int StartingHealth = 15;
         public int DetectionRadius = 18;
         public int CurrentDamageAmount = 5;
@@ -837,7 +837,7 @@ namespace EmeraldAI
         float CurrentHealthFloat;
         float CurrentVelocity;
         public float WaitTime = 5;
-        public int DamageReceived;
+        public float DamageReceived;
 
         public GameObject DroppableMeleeWeapon;
         public GameObject DroppableRangedWeapon;
@@ -2251,7 +2251,7 @@ namespace EmeraldAI
         /// <param name="TypeOfTarget">The type of target who is causing the damage.</param>
         /// <param name="AttackerTransform">The transform of the current attacker.</param>
         /// <param name="RagdollForce">The amount of force to apply to this AI when they die. (Use Ragdoll must be enabled on this AI)</param>
-        public void Damage (int DamageAmount, TargetType? TypeOfTarget = null, Transform AttackerTransform = null, int RagdollForce = 100, bool CriticalHit = false)
+        public void Damage (float DamageAmount, TargetType? TypeOfTarget = null, Transform AttackerTransform = null, int RagdollForce = 100, bool CriticalHit = false)
         {
             LastAttacker = AttackerTransform;
             
